@@ -1,12 +1,11 @@
 import './App.css'
+import MovieSearch from "./components/MovieSearch"
 
 const App = () => {
   
   return (
     <>
-      <div>
-        <h1>Movies</h1>
-       </div>
+       <MovieSearch/>
     </>
   )
 }
