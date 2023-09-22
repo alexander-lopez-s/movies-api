@@ -1,5 +1,9 @@
 body {
-  background-color: rgb(194, 219, 218);
+  background-color: #1c1c1c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #root {
@@ -14,106 +18,87 @@ body {
 }
 
 input[type=text] {
-  width: 170px;
-  padding: 6px;
-  border: 2px solid blue;
-  margin-right: 16px;
-  font-size: 14px;
+  width: 60%;
+  padding: 10px;
+  border: none;
   border-radius: 5px;
-  font-style: italic;
+  font-size: 1.2rem;
 }
 
 h1 {
-  justify-content: center;
-  text-align: center;
+  font-size: 2.5rem;
   text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-image: linear-gradient(to right, #007bff, #ff00ff); 
+  background-image: linear-gradient(to right, #007bff, #ff00ff);
   -webkit-background-clip: text;
   color: transparent;
-  text-align: center;
 }
 
 button {
-  background-color: #4CAF50; 
+  background-color: #ff9900;
   border: none;
-  color: white;
-  padding: 7px;
-  margin-top: 5px;
-  text-align: center;
-  font-size: 16px;
+  color: #fff;
+  padding: 10px 20px;
   border-radius: 5px;
-}
-
-button:hover {
+  font-size: 1.2rem;
   cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .movie-card {
-  width: 300px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #f5f5f5;
+  background-color: #333;
   border-radius: 10px;
+  margin: 10px 0;
+  max-width: 600px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   text-align: left;
-  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;}
+  padding: 20px;
+}
 
-.movie-poster {
-  width: 30%;
+ img {
+  width: 40%; 
   border-radius: 10px;
-  align-self: center;
-  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.movie-info {
+  flex-grow: 1;
 }
 
 .movie-title {
   font-size: 1.5rem;
-  margin-top: 10px;
-  color: blue;
+  margin: 10px 0;
+  color: rgb(10, 255, 194);
 }
 
 .movie-year {
-  font-size: 1rem;
-  color: rgb(54, 92, 4);
+  font-size: 1.2rem;
+  color: #888;
 }
 
 .movie-genre {
-  font-size: 1rem;
-  margin-top: 5px;
-  color: rgb(226, 11, 11);
+  font-size: 1.2rem;
+  color: #ff9900;
+  margin: 10px 0;
 }
 
 .movie-plot {
-  font-size: 1rem;
-  margin-top: 10px;
-  color: rgb(15, 14, 14);
-}
-
-.movie-details {
-  padding: 10px;
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 .heart-icon {
   cursor: pointer;
+  font-size: 30px;
 }
 
 span {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-.heart-icon {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-  text-align: right;
-  font-size: 30px;
-
-}
-
-.liked p{
-  color: rgb(255, 0, 200); 
+.liked p {
+  color: #ff00c8;
 }
