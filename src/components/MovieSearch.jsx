@@ -5,7 +5,7 @@ import MovieCard from './MovieCard';
 
 const API_KEY = 'd024085f';
 
-const MovieSearch => () {
+const MovieSearch = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [movieData, setMovieData] = useState(null);
   const [loading, setLoading] = useState(true);
